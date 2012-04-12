@@ -7,7 +7,9 @@
 <title>Logo Lophilo</title>
 
 <script src="../Modernizr/modernizr-2.0.6.js"></script>
-<script src="raphael-min.js"></script>
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script src="raphael.js"></script>
+<script src="Century_Gothic_700.font.js"></script>
 <script type="text/javascript">
 
 window.addEventListener("load", windowLoadHandler, false);
@@ -50,29 +52,51 @@ function canvasApp() {
 	deltax = 9;
 	deltay = 0;
 	scaler = 1;
-	x1 = (79+deltax)*scaler;
-	y1 = (46+deltay)*scaler;
-	r1 = 42*scaler;
-	x2 = (35+deltax)*scaler;
-	y2 = (71+deltay)*scaler;
-	r2 = 36*scaler;	
-	x3 = (75+deltax)*scaler;
-	y3 = (111+deltay)*scaler;
-	r3 = 46*scaler;	
+	x1 = (8.8);
+	y1 = (4.6);
+	r1 = 4.2;
+	x2 = (4.4);
+	y2 = (7.1);
+	r2 = 3.6;	
+	x3 = (8.4);
+	y3 = (11.1);
+	r3 = 4.6;	
 	
-	tx = (75+deltax+46+25)*scaler;
-	ty = (71+deltay+5)*scaler;
-	stroke = 7*scaler;
-	fontSize = 90*scaler;
+	tx = 175.5; //15.5
+	ty = 120.6;
+	stroke = 0.7;
 
-	var paper = Raphael('svg');
-	circleParams = {fill: "#FFFFFF", stroke: "#505050", "stroke-width": stroke, "fill-opacity": 0};
-	textParams = { 'font-family': 'Century Gothic', 'font': 'Century Gothic', 'font-size': fontSize, 'font-weight': 'bold', 'fill': '#505050'  };
-	paper.circle(x1, y1, r1).attr(circleParams);
-	paper.circle(x2, y2, r2).attr(circleParams);
-	paper.circle(x3, y3, r3).attr(circleParams);
-	paper.text(tx+160, ty+5, 'Lophilo').attr(textParams);
-	console.log(document.getElementById('svg').innerHTML);
+	var paper = Raphael('svg', 800, 600);
+	circleParams = {
+		fill: '#FFFFFF', 
+		stroke: '#505050', 
+		'stroke-width': stroke+'em', 
+		'fill-opacity': 0
+	};
+	textParams = { 
+		'font-family': 'Century Gothic', 
+		'font': 'Century Gothic', 
+		'font-size': '90', 
+		'font-weight': 'bold', 
+		'fill': '#505050'  
+	};
+	paper.circle(x1+'em', y1+'em', r1+'em').attr(circleParams);
+	paper.circle(x2+'em', y2+'em', r2+'em').attr(circleParams);
+	paper.circle(x3+'em', y3+'em', r3+'em').attr(circleParams);
+	//paper.text(tx+160, ty+5, 'Lophilo').attr(textParams);
+	centuryGothicFont = paper.getFont(
+		'Century Gothic');
+	if(!centuryGothicFont) {
+		console.log('cannot find centuryGothicFont');
+	} else {
+		paper.print(tx+160, ty+50, 'Lophilo', centuryGothicFont, '120').attr({
+			'fill': '#505050', 
+			'font-weight': 'bold', 
+			stroke: '#505050', 
+			'stroke-width':'0.7'
+		});
+		console.log(document.getElementById('svg').innerHTML);
+	}
 }
 
 function putImage()
@@ -112,7 +136,7 @@ function putImage()
 		#displayCanvas {position:relative; top:10px; z-index:0;}
 	div {}
 		#container {width:800px; height:500px; margin:auto;}
-		#svg {width:800px; height:500px; margin:auto;} 
+		#svg {width:800px; height:1000px; margin:auto;} 
 </style>
 
 
