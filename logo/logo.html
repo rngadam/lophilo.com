@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+
+<title>Logo Lophilo</title>
+
+<script src="../Modernizr/modernizr-2.0.6.js"></script>
+<script src="raphael-min.js"></script>
+<script type="text/javascript">
+
+window.addEventListener("load", windowLoadHandler, false);
+
+//for debug messages while testing code
+var Debugger = function() { };
+Debugger.log = function(message) {
+	try {
+		console.log(message);
+	}
+	catch (exception) {
+		return;
+	}
+}
+
+function windowLoadHandler() {
+	canvasApp();
+}
+
+function canvasSupport() {
+	return Modernizr.canvas;
+}
+
+function canvasApp() {
+	if (!canvasSupport()) {
+		return;
+	}
+	
+	var displayCanvas = document.getElementById("displayCanvas");
+	var ctx = displayCanvas.getContext("2d");
+	var displayWidth = displayCanvas.width;
+	var displayHeight = displayCanvas.height;
+		
+	var TWO_PI = 2*Math.PI;
+	// Century Gothic / Bold
+	
+	ctx.strokeStyle = "#000000";
+	ctx.fillStyle = "#FFFFFF";
+	
+	deltax = 9;
+	deltay = 0;
+	scaler = 1;
+	x1 = (79+deltax)*scaler;
+	y1 = (46+deltay)*scaler;
+	r1 = 42*scaler;
+	x2 = (35+deltax)*scaler;
+	y2 = (71+deltay)*scaler;
+	r2 = 36*scaler;	
+	x3 = (75+deltax)*scaler;
+	y3 = (111+deltay)*scaler;
+	r3 = 46*scaler;	
+	
+	tx = (75+deltax+46+25)*scaler;
+	ty = (71+deltay+5)*scaler;
+	stroke = 7*scaler;
+	fontSize = 90*scaler;
+
+	var paper = Raphael('svg');
+	circleParams = {fill: "#FFFFFF", stroke: "#505050", "stroke-width": stroke, "fill-opacity": 0};
+	textParams = { 'font-family': 'Century Gothic', 'font': 'Century Gothic', 'font-size': fontSize, 'font-weight': 'bold', 'fill': '#505050'  };
+	paper.circle(x1, y1, r1).attr(circleParams);
+	paper.circle(x2, y2, r2).attr(circleParams);
+	paper.circle(x3, y3, r3).attr(circleParams);
+	paper.text(tx+160, ty+5, 'Lophilo').attr(textParams);
+	console.log(document.getElementById('svg').innerHTML);
+}
+
+function putImage()
+{
+  var canvas1 = document.getElementById("svg");        
+  if (canvas1.getContext) {
+ 	 var ctx = canvas1.getContext("2d");                // Get the context for the canvas.
+     var myImage = canvas1.toDataURL("image/svg");      // Get the data as an image.
+  }
+  var imageElement = document.getElementById("MyPix");  // Get the img object.
+  imageElement.src = myImage;                           // Set the src to data from the canvas.
+  
+}
+</script>
+
+<title>Lophilo Logo</title>
+
+<style type="text/css">
+
+	body {
+		background-color:#ffffff; 
+		color:#333333;
+	} 
+	a {
+		font-family: sans-serif; 
+		color:#d15423; 
+		text-decoration:none;
+	}
+	h1 { 
+		font-family: Century Gothic, sans-serif;
+		font-size:120px; 
+		text-align:center; 
+		position:relative; 
+		text-decoration:none;
+	}
+	canvas {}
+		#displayCanvas {position:relative; top:10px; z-index:0;}
+	div {}
+		#container {width:800px; height:500px; margin:auto;}
+		#svg {width:800px; height:500px; margin:auto;} 
+</style>
+
+
+</head>
+<body>
+<div>
+<button onclick="putImage()">Copy graphic using toDataURL</button>        
+</div>
+<div id="svg"> 
+    <canvas id="displaySVG" width="800px" height=500px>
+        Your browser does not support HTML5 canvas.
+    </canvas> 
+</div>
+<div id="container"> 
+    <canvas id="displayCanvas" width="800px" height=500px>
+        Your browser does not support HTML5 canvas.
+    </canvas> 
+</div>
+
+<div>
+<img id="MyPix">
+</div>
+</body>
+</html>
