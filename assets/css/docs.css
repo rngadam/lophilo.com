@@ -286,6 +286,7 @@ hr.soften {
 .footer p {
   margin-bottom: 0;
   color: #555;
+  font-size: 6pt;
 }
 
 
@@ -540,6 +541,18 @@ h2 + .row {
   margin-left: auto; 
   margin-right: auto;
   width: 400px;
+}
+
+.carousel-caption h4 {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.carousel-caption p {
+  font-size: 12px;
+  display: block; 
+  margin-left: 0; 
+  margin-right: 0;
 }
 
 /* Remove bottom margin on example forms in wells */

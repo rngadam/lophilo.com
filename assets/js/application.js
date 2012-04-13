@@ -7,7 +7,7 @@
     	{ 
     		pid:'XEM-S91', 
     		name: 'MPU', 
-    		shortdesc: 'Run Linux on a powerful combo of industrial strength ARM CPU with tight integration to a I/O coprocessor.' 
+    		shortdesc: 'Run Linux on a powerful combo of industrial strength ARM CPU with tight integration to an I/O coprocessor.' 
     	},
     	{ 
     		pid:'LDB-U01', 
@@ -32,8 +32,12 @@
     ];
     for(var i=0; i<products.length; i++) {
     	product = products[i];
-    	console.log(product);
-    	$('#' + product['pid']).popover({title: product['name'], content: product['shortdesc'], placement: 'top'});
+    	if(product['pid'] === 'LDB-U01') {
+            $('#' + product['pid'] + '-back').next().children('h4').html(product['name']);
+            $('#' + product['pid'] + '-back').next().children('p').html(product['shortdesc']);
+		}
+    	$('#' + product['pid']).next().children('h4').html(product['name']);
+        $('#' + product['pid']).next().children('p').html(product['shortdesc']);
     }
  })
 }(window.jQuery)
