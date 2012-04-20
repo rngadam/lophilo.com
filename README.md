@@ -28,6 +28,7 @@
 
 # Test
 
-* Test with:
-** http://www.google.com/webmasters/tools/richsnippets
+Test with: 
+
+* http://www.google.com/webmasters/tools/richsnippets
 * Webmaster tools
