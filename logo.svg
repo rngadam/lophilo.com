@@ -21,6 +21,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -41,7 +42,7 @@
      inkscape:cx="295.5"
      inkscape:cy="35.5"
      inkscape:window-x="-8"
-     inkscape:window-y="892"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg3908"
      fit-margin-top="0"
@@ -62,7 +63,10 @@
      sodipodi:cy="46"
      sodipodi:rx="42"
      sodipodi:ry="42"
-     transform="translate(-4.5,-0.5)" />
+     transform="translate(-4.5,-0.5)"
+     inkscape:export-filename="C:\Users\rngadam\XinCheJian\Projects\lophilo\lophilo.com\lophilo_600.png"
+     inkscape:export-xdpi="116.96074"
+     inkscape:export-ydpi="116.96074" />
   <circle
      style="fill:#ffffff;fill-opacity:0;stroke:#505050;stroke-width:7"
      cx="44"
@@ -73,7 +77,10 @@
      sodipodi:cy="71"
      sodipodi:rx="36"
      sodipodi:ry="36"
-     transform="translate(-4.5,-0.5)" />
+     transform="translate(-4.5,-0.5)"
+     inkscape:export-filename="C:\Users\rngadam\XinCheJian\Projects\lophilo\lophilo.com\lophilo_600.png"
+     inkscape:export-xdpi="116.96074"
+     inkscape:export-ydpi="116.96074" />
   <circle
      style="fill:#ffffff;fill-opacity:0;stroke:#505050;stroke-width:7"
      cx="84"
@@ -84,17 +91,64 @@
      sodipodi:cy="111"
      sodipodi:rx="46"
      sodipodi:ry="46"
-     transform="translate(-4.5,-0.5)" />
-  <text
+     transform="translate(-4.5,-0.5)"
+     inkscape:export-filename="C:\Users\rngadam\XinCheJian\Projects\lophilo\lophilo.com\lophilo_600.png"
+     inkscape:export-xdpi="116.96074"
+     inkscape:export-ydpi="116.96074" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path3937"
      style="font-size:90px;font-style:normal;font-variant:normal;font-weight:bold;line-height:normal;text-anchor:middle;fill:#505050;stroke:none;font-family:Century Gothic"
-     x="310.5"
-     y="80.5"
-     font="Century Gothic"
-     font-size="90px"
-     font-weight="bold"
-     id="text3920">
-    <tspan
-       dy="35"
-       id="tspan3922">Lophilo</tspan>
-  </text>
+     d="m 162.14062,50.856445 12.30469,0 0,52.910155 17.92969,0 0,11.7334 -30.23438,0 z"
+     inkscape:export-filename="C:\Users\rngadam\XinCheJian\Projects\lophilo\lophilo.com\lophilo_600.png"
+     inkscape:export-xdpi="116.96074"
+     inkscape:export-ydpi="116.96074" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path3939"
+     style="font-size:90px;font-style:normal;font-variant:normal;font-weight:bold;line-height:normal;text-anchor:middle;fill:#505050;stroke:none;font-family:Century Gothic"
+     d="m 222.8291,66.457031 c 4.51169,4.9e-5 8.75241,1.127978 12.72217,3.383789 3.96968,2.255903 7.06782,5.317423 9.29443,9.184571 2.22651,3.86722 3.33979,8.04202 3.33985,12.524414 -6e-5,4.511738 -1.12066,8.730485 -3.36182,12.656245 -2.24126,3.92579 -5.29545,6.99464 -9.1626,9.20655 -3.86722,2.21191 -8.12991,3.31787 -12.78808,3.31787 -6.85549,0 -12.70754,-2.43896 -17.55616,-7.3169 -4.84863,-4.87791 -7.27295,-10.803202 -7.27294,-17.775875 -1e-5,-7.470671 2.73925,-13.696251 8.21777,-18.676758 4.80467,-4.33589 10.32712,-6.503857 16.56738,-6.503906 z m 0.17578,11.293946 c -3.72073,3.7e-5 -6.81887,1.296423 -9.29443,3.88916 -2.4756,2.592804 -3.7134,5.910672 -3.71338,9.953613 -2e-5,4.160176 1.22313,7.529313 3.66943,10.10742 2.44627,2.57814 5.54441,3.8672 9.29444,3.86719 3.74997,1e-5 6.87008,-1.3037 9.36035,-3.91113 2.49019,-2.607409 3.73531,-5.961898 3.73535,-10.06348 -4e-5,-4.101534 -1.22318,-7.434051 -3.66943,-9.997559 -2.44633,-2.56344 -5.57377,-3.845177 -9.38233,-3.845214 z"
+     inkscape:export-filename="C:\Users\rngadam\XinCheJian\Projects\lophilo\lophilo.com\lophilo_600.png"
+     inkscape:export-xdpi="116.96074"
+     inkscape:export-ydpi="116.96074" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path3941"
+     style="font-size:90px;font-style:normal;font-variant:normal;font-weight:bold;line-height:normal;text-anchor:middle;fill:#505050;stroke:none;font-family:Century Gothic"
+     d="m 269.93848,67.6875 0,5.273437 c 2.16795,-2.167924 4.51169,-3.793898 7.03125,-4.877929 2.5195,-1.083936 5.21481,-1.625928 8.08593,-1.625977 6.2402,4.9e-5 11.54293,2.358445 15.90821,7.075196 4.36518,4.716834 6.54779,10.766632 6.54785,18.149414 -6e-5,7.119157 -2.25591,13.073739 -6.76758,17.863769 -4.51176,4.79004 -9.85844,7.18506 -16.04004,7.18506 -2.75393,0 -5.31741,-0.49072 -7.69043,-1.47217 -2.37307,-0.98144 -4.73146,-2.58545 -7.07519,-4.81201 l 0,22.54394 -11.90918,0 0,-65.30273 z m 12.6123,9.84375 c -3.77932,3.8e-5 -6.91408,1.289099 -9.4043,3.867187 -2.49025,2.578157 -3.73536,5.947294 -3.73535,10.107422 -1e-5,4.248067 1.2451,7.683122 3.73535,10.305181 2.49022,2.62208 5.62498,3.93311 9.4043,3.9331 3.66208,1e-5 6.74557,-1.333 9.25049,-3.99902 2.50484,-2.666002 3.75728,-6.064436 3.75732,-10.195315 -4e-5,-4.101535 -1.23051,-7.463348 -3.6914,-10.08545 -2.46098,-2.622033 -5.56644,-3.933067 -9.31641,-3.933105 z"
+     inkscape:export-filename="C:\Users\rngadam\XinCheJian\Projects\lophilo\lophilo.com\lophilo_600.png"
+     inkscape:export-xdpi="116.96074"
+     inkscape:export-ydpi="116.96074" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path3943"
+     style="font-size:90px;font-style:normal;font-variant:normal;font-weight:bold;line-height:normal;text-anchor:middle;fill:#505050;stroke:none;font-family:Century Gothic"
+     d="m 317.4873,49.230469 11.90918,0 0,23.291015 c 2.34373,-2.021439 4.70213,-3.537551 7.0752,-4.548339 2.37302,-1.010694 4.77536,-1.516065 7.20703,-1.516114 4.74606,4.9e-5 8.74508,1.640673 11.99707,4.921875 2.78316,2.841838 4.17476,7.016639 4.17481,12.524414 l 0,31.59668 -11.82129,0 0,-20.961914 c -4e-5,-5.537083 -0.26371,-9.287079 -0.79102,-11.25 -0.52738,-1.962857 -1.42826,-3.427699 -2.70264,-4.394531 -1.27444,-0.96676 -2.84915,-1.450158 -4.72412,-1.450196 -2.43166,3.8e-5 -4.51906,0.805702 -6.2622,2.416993 -1.74319,1.611362 -2.95168,3.808625 -3.62549,6.591796 -0.35158,1.435575 -0.52736,4.716822 -0.52735,9.84375 l 0,19.204102 -11.90918,0 z"
+     inkscape:export-filename="C:\Users\rngadam\XinCheJian\Projects\lophilo\lophilo.com\lophilo_600.png"
+     inkscape:export-xdpi="116.96074"
+     inkscape:export-ydpi="116.96074" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path3945"
+     style="font-size:90px;font-style:normal;font-variant:normal;font-weight:bold;line-height:normal;text-anchor:middle;fill:#505050;stroke:none;font-family:Century Gothic"
+     d="m 376.11035,48 c 2.10936,6.7e-5 3.91844,0.761785 5.42725,2.285156 1.50877,1.523501 2.26316,3.369203 2.26318,5.53711 -2e-5,2.138729 -0.74709,3.962458 -2.24121,5.471191 -1.49416,1.508842 -3.28126,2.263236 -5.36133,2.263184 -2.13868,5.2e-5 -3.96241,-0.768991 -5.47119,-2.307129 -1.50879,-1.53803 -2.26319,-3.405704 -2.26318,-5.603028 -10e-6,-2.109313 0.74706,-3.911069 2.24121,-5.405273 1.49413,-1.494074 3.29589,-2.241144 5.40527,-2.241211 z m -6.02051,19.6875 12.04102,0 0,47.8125 -12.04102,0 z"
+     inkscape:export-filename="C:\Users\rngadam\XinCheJian\Projects\lophilo\lophilo.com\lophilo_600.png"
+     inkscape:export-xdpi="116.96074"
+     inkscape:export-ydpi="116.96074" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path3947"
+     style="font-size:90px;font-style:normal;font-variant:normal;font-weight:bold;line-height:normal;text-anchor:middle;fill:#505050;stroke:none;font-family:Century Gothic"
+     d="m 391.75488,49.230469 11.99707,0 0,66.269531 -11.99707,0 z"
+     inkscape:export-filename="C:\Users\rngadam\XinCheJian\Projects\lophilo\lophilo.com\lophilo_600.png"
+     inkscape:export-xdpi="116.96074"
+     inkscape:export-ydpi="116.96074" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path3949"
+     style="font-size:90px;font-style:normal;font-variant:normal;font-weight:bold;line-height:normal;text-anchor:middle;fill:#505050;stroke:none;font-family:Century Gothic"
+     d="m 437.10645,66.457031 c 4.51168,4.9e-5 8.7524,1.127978 12.72216,3.383789 3.96968,2.255903 7.06783,5.317423 9.29444,9.184571 2.22651,3.86722 3.33979,8.04202 3.33984,12.524414 -5e-5,4.511738 -1.12066,8.730485 -3.36182,12.656245 -2.24125,3.92579 -5.29545,6.99464 -9.16259,9.20655 -3.86723,2.21191 -8.12992,3.31787 -12.78809,3.31787 -6.85549,0 -12.70753,-2.43896 -17.55615,-7.3169 -4.84864,-4.87791 -7.27295,-10.803202 -7.27295,-17.775875 0,-7.470671 2.73925,-13.696251 8.21777,-18.676758 4.80467,-4.33589 10.32713,-6.503857 16.56739,-6.503906 z m 0.17578,11.293946 c -3.72073,3.7e-5 -6.81887,1.296423 -9.29444,3.88916 -2.4756,2.592804 -3.71339,5.910672 -3.71338,9.953613 -10e-6,4.160176 1.22313,7.529313 3.66944,10.10742 2.44626,2.57814 5.54441,3.8672 9.29443,3.86719 3.74997,1e-5 6.87008,-1.3037 9.36035,-3.91113 2.4902,-2.607409 3.73531,-5.961898 3.73535,-10.06348 -4e-5,-4.101534 -1.22318,-7.434051 -3.66943,-9.997559 -2.44632,-2.56344 -5.57376,-3.845177 -9.38232,-3.845214 z"
+     inkscape:export-filename="C:\Users\rngadam\XinCheJian\Projects\lophilo\lophilo.com\lophilo_600.png"
+     inkscape:export-xdpi="116.96074"
+     inkscape:export-ydpi="116.96074" />
 </svg>
