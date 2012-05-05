@@ -16,6 +16,7 @@
 
 # TODO
 
+* Add header keywords
 * Add decent 404 page
 * Add a separate pre-order page
 * Add button-level analytics
