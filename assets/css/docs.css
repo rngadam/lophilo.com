@@ -541,6 +541,7 @@ h2 + .row {
   margin-left: auto; 
   margin-right: auto;
   width: 400px;
+  height: 330px;
 }
 
 .carousel-caption h4 {

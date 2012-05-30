@@ -14,8 +14,13 @@
 * Add robots.txt file as per Webmaster tools
 * Add linkedin quicklink
 
+* fix IE10 bug (div outside body)
+* add links to Youtube channel and Blogger
+* add actual pictures instead of 3d design
+
 # TODO
 
+* fix bad email subjects
 * Add header keywords
 * Add decent 404 page
 * Add a separate pre-order page
